@@ -346,6 +346,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1683866806}
   - component: {fileID: 1683866805}
+  - component: {fileID: 1683866809}
+  - component: {fileID: 1683866808}
+  - component: {fileID: 1683866807}
   m_Layer: 0
   m_Name: City Generator
   m_TagString: Untagged
@@ -359,12 +362,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1683866804}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3fbd1c7bb1e6564c944917690abfa69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mWorldSize: 64
+  mWorldSize: 128
   mShowRoads: 1
   mShowParcels: 1
 --- !u!4 &1683866806
@@ -380,3 +383,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1683866807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683866804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fe0bbb2c6d42844a09ea3524622652, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1683866808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683866804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872329c91a2dfeb478879a48facdd494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1683866809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683866804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8076dd7a575680642a14280eb74514aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mShowRoads: 1
